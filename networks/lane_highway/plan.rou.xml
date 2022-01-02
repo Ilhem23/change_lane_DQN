@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-27 14:40:13 by Eclipse SUMO netedit Version 1.11.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+   <route edges="e0 e1 e4" color="yellow" id="route_0"/>
+   <route edges="e3 e1 e4" color="yellow" id="route_1"/>
+    <vType id="human" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70" minGap="0" laneChangeModel="SL2015" guiShape='passenger/wagon'/>
+    <vType id="rl" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="50"  carFollowModel="IDM"
+minGap="2" laneChangeModel="SL2015"  guiShape='passenger/van' color="1,0,0"/>
+</routes>

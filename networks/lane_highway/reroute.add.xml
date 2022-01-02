@@ -1,0 +1,7 @@
+<additionals>
+    <rerouter id="rerouter_0" edges="E4">
+        <interval begin="0" end="2000">
+           <destProbReroute id="E3"/>
+        </interval>
+    </rerouter>
+</additionals>
